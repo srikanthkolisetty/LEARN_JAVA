@@ -3,8 +3,10 @@ package in.ineuron;
 public class Test90 {
 	
 	int a=10;
+	static int b=10;
 	public void test() {
 		a=20; // changes made here direclty change the value inside it 
+		b=30; // static variables can be accessed any where and can be modified also.
 	}
 	public void disp() {
 		System.out.println(a); // we get the modified value here  

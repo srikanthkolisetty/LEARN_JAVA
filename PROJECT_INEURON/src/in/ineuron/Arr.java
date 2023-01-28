@@ -5,6 +5,8 @@ public class Arr {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			int [][] a=new int[2][]; //always one value must be specified
+			System.out.println(a[0]); 
+			//System.out.println(a[0][0]);//null pointer exception.
 			int [] b= new int[3];
 			int [][][]v=new int [3][][]; 
 			v[0]=new int [3][];

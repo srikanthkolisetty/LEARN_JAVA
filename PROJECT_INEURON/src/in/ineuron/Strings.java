@@ -20,7 +20,7 @@ public class Strings {
 			StringBuilder s3=new StringBuilder("srikanth");
 			s3.append("should go with shiva");
 			System.out.println(s3.equals(s2)); //returns false because the equals() method of stringbuilder works as == operator
-			
+			// string buffer is thread safe
 	}
 	
 

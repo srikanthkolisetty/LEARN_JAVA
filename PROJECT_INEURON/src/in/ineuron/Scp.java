@@ -14,7 +14,8 @@ public class Scp {
 		String s4="youme";
 		System.out.println(s4==s3);
 		char [] ch= {'j','a','v','a'};
-		String s5=new String(ch); // also creates two objects scp,heap, like this we can pass stringbuffer variable,byte array variable and we can alsi create an empty string.
+		byte []a= {1,2}; // string can take byte and char array;
+		String s5=new String(a); // also creates two objects scp,heap, like this we can pass stringbuffer variable,byte array variable and we can alsi create an empty string.
 		System.out.println(s5);
 		System.out.println(s5.length());
 		System.out.println(s5.charAt(3)); //s5.charAt(-1) gives exception s5.charAt(500) gives exception known as StringIndexOutOfBoundsException

@@ -15,6 +15,10 @@ public class Do {
 	//System.out.println("o"+" "+i);
 	
 		// error cant access i 
+	if(true)
+	{
+		
+	}
 
 }
 }

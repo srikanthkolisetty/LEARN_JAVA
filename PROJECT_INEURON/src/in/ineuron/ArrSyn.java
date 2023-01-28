@@ -20,7 +20,7 @@ public class ArrSyn {
 		System.out.print(g.getClass()); //output for this statement is " class [c  " these classes will be available at runtime.
 	 
 		// char a value in int is 97
-		// the size of array can be int,char,byte,short but not otheer data types.
+		// the size of array can be int,char,byte,short but not other data types.
 		byte u=10;
 		char[] t= new char[u]; // u is of type byte.
 	

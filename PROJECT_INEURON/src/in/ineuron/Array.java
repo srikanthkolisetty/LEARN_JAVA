@@ -4,7 +4,7 @@ public class Array {
 
 	public static void main(String[] args) 
 	{
-		//
+		
 		// TODO Auto-generated method stub
 		System.out.println("enter the size of the array");
 		Scanner s=new Scanner(System.in);
