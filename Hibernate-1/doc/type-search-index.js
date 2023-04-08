@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"in.ineuron.controller","l":"First"},{"p":"in.ineuron.controller","l":"Second"}];updateSearchResults();

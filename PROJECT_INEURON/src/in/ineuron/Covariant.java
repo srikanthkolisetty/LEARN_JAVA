@@ -22,6 +22,5 @@ public class Covariant extends D{
  public static void main(String[] args) {
 	
 	 new Covariant().inn();
-	 5
 }
 }

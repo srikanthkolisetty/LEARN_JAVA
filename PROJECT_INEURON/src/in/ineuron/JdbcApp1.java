@@ -11,6 +11,7 @@ public class JdbcApp1 {
 		try
 		{
 			con=JDBCCommon.getJdbcUtilConnection();
+			System.out.println(con.getClass().getName());
 			st=con.prepareStatement("Select *  from INEURON.EMPLOYEE where dt_join is not null");
 			rs=st.executeQuery();
 			if(rs.next())

@@ -18,6 +18,6 @@ public class AnyMatch {
 		// code to check whether any elements in the array lists.
 		match=a1.stream().anyMatch(a2::contains);
 		System.out.println(match);
-		
+	//	int a[]= new int[2L]; array size should be in int,byte,short,char only
 	}
 }
