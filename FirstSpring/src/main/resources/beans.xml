@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+<bean id="First" class="in.ineuron.First.SpringLove">
+<property name="three" value="30"/>
+<constructor-arg index ="1" value="10"/>
+<constructor-arg index="0" value="20"/>
+</bean>
+<bean id="rother" class="in.ineuron.First.MotherImpl"/>
+<bean id="Second" class="in.ineuron.First.Father" autowire="byName"/>
+</beans>
